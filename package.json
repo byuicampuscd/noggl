@@ -9,6 +9,8 @@
   "author": "Benjamin Earl",
   "license": "ISC",
   "dependencies": {
+    "github": "^8.2.1",
+    "simple-git": "^1.66.0",
     "toggl-api": "^1.0.1"
   }
 }
