@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "github": "^8.2.1",
+    "prompt": "^1.0.0",
     "simple-git": "^1.66.0",
     "toggl-api": "^1.0.1"
   }
