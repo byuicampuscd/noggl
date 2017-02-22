@@ -4,13 +4,13 @@ var fs = require('fs')
 var git = require('simple-git')()
 var prompt = require('prompt')
 var workspaceID
-var path = './data.json'
-var authPath = './auth.json'
+var path = __dirname+'/data.json'
+var authPath = __dirname+'./auth.json'
 
 
 function getOldData(){
+	git.pull()
 	if(fs.existsSync(path)){
-		git.pull()
 		return JSON.parse(fs.readFileSync(path,'utf8'))
 	}
 	return {}
