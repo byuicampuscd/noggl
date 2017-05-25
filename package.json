@@ -1,7 +1,7 @@
 {
   "name": "noggl",
   "version": "1.0.0",
-  "description": "",
+  "description": "Collect reports from toggl.",
   "main": "noggl.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
