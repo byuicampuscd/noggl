@@ -6,11 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Benjamin Earl",
-  "license": "ISC",
   "dependencies": {
     "prompt": "^1.0.0",
     "simple-git": "^1.66.0",
     "toggl-api": "^1.0.1"
-  }
+  },
+  "author": "Benjamin Earl",
+  "license": "ISC"
 }
