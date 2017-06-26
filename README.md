@@ -19,6 +19,3 @@ npm install -g
 node noggl
 ```
 The first time you run it, it will ask for your toggl API key. Which can be found in your profile settings on toggl's site
-
-
-*// I think this is what we want we just need to add in typing in the password everytime*
